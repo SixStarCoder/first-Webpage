@@ -1,0 +1,167 @@
+body {
+    background-image: url(images/protools-backgorund-dark.jpg);
+ background-repeat: no-repeat;
+ background-position: center;
+    background-attachment: fixed;
+    background-size: cover;}
+h1 {
+    text-align: center;    
+    font-size: 100px; 
+    color: rgb(248, 248, 248); 
+    background-color: red; 
+    background-image: url(Images/uad-pligins-background.jpg);
+    background-repeat: no repeat
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 5px solid black; 
+    margin-top: 0;
+    border-radius: 30px; 
+    font-family: copperplate, serif;  
+    text-shadow: 0px 0px 5px  lightgrey,
+                 0px 8px 7px grey,
+                 0px 18px 9px darkgrey ;
+        box-shadow: 5px 5px 5px rgb(237, 235, 240);}
+nav ul{
+    margin: 5%}
+nav ul li{
+    text-align: center;
+    padding: 10px;
+  
+    list-style: inside;}
+
+    .links{
+        font-family: copperplate, serif;
+        font-size: 30px;
+        font-style: italic
+        text;
+    }
+
+h2{
+    text-align: center;
+    font-family: copperplate, serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: aliceblue;
+    text-decoration: underline;}
+#aboutus{
+    color:aliceblue;
+    border: 5px solid aliceblue;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 25px;}
+
+h3{
+    font-family: copperplate, serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: aliceblue;
+    text-decoration: underline;}
+
+#services{
+    font-family:copperplate, serif;
+    color: aliceblue;
+    border: 5px solid aliceblue;
+    background-color: black;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 25px;}
+
+#pictures {
+    padding: 10px;
+    border: 5px solid aliceblue;
+    background-color: black;
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 25px;}
+   
+#pictures img {
+    padding: 20px;
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    border: 5px solid aliceblue;
+    border-radius: 15px; 
+    display: inline-block;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);}
+
+#contact {
+    text-align: center;
+    font-family: copperplate, serif;
+    border: 5px solid aliceblue;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 25px;}
+    button {
+        font-family: copperplate, serif;
+        font-size: 20px;
+        padding: 10px 20px;
+        margin: 10px;
+        border: linear-gradient(black, grey);
+        border-radius: 5px;
+        background-color: black;
+        color: white;
+        cursor: pointer;}
+#Booking {  
+     text-align: center;
+    font-family: copperplate, serif;
+    border: 5px solid aliceblue;
+    color: aliceblue;
+    background-color: black;
+    margin-top: 80px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    font-size: 25px;
+padding:20px}
+  
+    
+button:hover {
+    background-color: grey;
+    color: black;
+    border: linear-gradient(black, grey);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+    transition: all 0.3s ease;}   
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.links {
+    color: black;
+}
+a:visited {
+    color: blue;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: green
+    
+}

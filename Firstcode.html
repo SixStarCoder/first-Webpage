@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script src="https://kit.fontawesome.com/4f1350053c.js" crossorigin="anonymous"></script>
+<title>SixStar Studios</title>
+</head>
+<body>
+    <header>
+        <h1>SixStar Studios</h1>
+        <nav>
+            <ul>
+                <li><a class="links" href="#aboutus"><button>Get To Know Us</button></a></li>
+                <li><a class="links" href="#services"><button>Services</button></a></li>
+                <li><a class="links" href="#pictures"><button>Pictures</button></a></li>
+                <li><a class="links" href="#contact"><button>Contact</button></a></li>
+                <li><a class="links" href="#Booking"><button>Book with us</button></a></li>
+            </ul> 
+        </nav></header>
+    <section id="aboutus">
+        <h2>About The Team</h2>
+   <p id="P1 box">Providing industryy quality sound with budget friendly prices!!  If you're looking for somewhere to get a professional sound for your recordings then you've found the right place.  We have over 20 years experience in vocal recording and mixing.  Our founder, Charles "SixStar GeeWee" is a well known vocalists whose struggles to find the right sound led to this setup.</p>
+    <p id="P1 box"> We operate Protools off of a MacMini with a UAD integrated interface.  We have UAD preamps such as AValon 737, Manley VoxBox and Neve 1073 just to name a few.  We also have a variety of Waves and Antares plugins to give your great recording a great mix and sound.  We like to build relationships with our artists so we can anticipate the sound they're seeking and deliver just that.</p>
+    <p id="P1 box" > SixStar GeeWee and SixStar Reezy are two of the best engineers around.  They worked together to develop a sound that the artist can be proud to leave the studio with.  Their passion for music allows them to really get in tune with artist to create the best possible session.  They influence creativity through advice, lighting settings that let the artist create the mood and a spacious vocal booth and engineer room to vibe in! </p>
+    </section>
+    <br>
+    <br>
+     <br>
+      <br>
+       <br>
+    <section id="services">
+        <h2>Services</h2>
+        <h3> Vocal Recording</h3>
+        <p>If you've ever recorded a song you know thta nothing beats that clear, crispy vocal during playback.  We use a variety of preamps and meters to ensure a quality recording everytime.  We understand how important your music is to you as an artist and its just as important to us as an engineer.  We take pride in recording top quallity vocasls for our clients.  The satisfaction they have is priceless.  They have confidence in us and the less they have to worry about the more they can focus on the creative parts.</p>
+        <h3> Mixing</h3>
+        <p>Mixing is an art form.  It takes a keen ear and a lot of experience to get a great mix.  We have both.  Our engineers have mixed for some of the top names in the industry.  They know how to get the best out of your track.  We use a variety of plugins and techniques to get the perfect sound.  We also take the time to understand your vision for the track and work with you to achieve it.  We want you to be proud of the final product.</p>
+        <h3 >Mastering</h3>
+        <p>Mastering is the final step in the music production process.  It's where we take the mixed track and prepare it for distribution.  We use a variety of tools and techniques to ensure your track sounds great on all playback systems.  We also take the time to understand your vision for the track and work with you to achieve it.  We want you to be proud of the final product.</p>
+    </section>
+    <section id="pictures">
+        <h2>Pictures</h2>
+        <div Class="gallery"> 
+        <a target="blank" href="Images/studio1.jpg">
+        <img src="Images/studio1.jpg" alt="Studio 1"></a>
+
+        <a target="blank" href="Images/booth1.jpg">
+        <img src="Images/booth1.jpg" alt="Studio 2"></a>
+
+        <a target="blank" href="Images/booth2.jpg">
+        <img src="Images/booth2.jpg" alt="Studio 3"></a>
+        
+        <a target="blank" href="Images/vibe1.jpg">
+        <img src="Images/vibe1.jpg" alt="Studio 4"></a>
+
+        <a target="blank" href="Images/vibe2.jpg">
+        <img src="Images/vibe2.jpg" alt="Studio 5"></a>
+
+        <a target="blank" href="Images/vibe3.jpg">
+        <img src="Images/vibe3.jpg" alt="Studio 6"></a>
+        </section>
+    <section id="contact">
+        <h2>Contact Us</h2> 
+        <p><i class="fa-brands fa-square-instagram"></i>: OfficialSixStarStudios</p>
+        <p><i class="fa-slab fa-regular fa-envelope"></i>:OfficialSixStarStudios@gmail.com</p>
+        <p><i class="fa-regular fa-phone"></i>: (337) 849-2824-SixStar GeeWee</p>
+        <p><i class="fa-regular fa-phone"></i>: (337) 418-7232-SixStar Reezy</p>
+        <p><i class="fa-regular fa-house"></i>: Opelousas, La 70570</p>
+    </section>
+<section id="Booking">
+    <h2>Book With Us</h2>
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+        
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+
+        <label for="time">Preferred Time:</label>
+        <input type="time" id=time" name="time" required><br><br> 
+        
+         <label for="hours">Duration (hours):</label>
+        <input type="numbers" id="hours" name="hours" min="1" max="23" required><br><br>
+
+        <label for="service">Service Needed:</label>
+        <select id="service" name="service" required>
+            <option value="vocal_recording">Vocal Recording</option>
+            <option value="mixing">Mixing</option>
+            <option value="mastering">Mastering</option>
+        </select><br><br>
+        
+        <button><input type="submit" value="Submit"></button>
+    </form>
+    </section>
+
+    
+         
